@@ -1,316 +1,67 @@
 <!DOCTYPE html>
-<html class="cspio">
+<html  >
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Planner Peak</title>
-
-		<link href="https://static.comingsoonpage.com/11898/3OSLiZMyTlOn2DZlkbpY_Artboard 1.png" rel="shortcut icon" type="image/x-icon" />
-		<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="Student Planner App made by students for Students! Coming Soon!">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:url" content="http://plannerpeak.com" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Planner Peak" />
-	<meta property="og:description" content="Student Planner App made by students for Students! Coming Soon!" />
-	
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- Bootstrap and default Style -->
-	 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
-
-
-
-	<!-- Google Fonts -->
-				<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Open+Sans:700&subset=' rel='stylesheet' type='text/css'>
-						<link class="gf-text" href='https://fonts.googleapis.com/css?family=Open+Sans:400&subset=' rel='stylesheet' type='text/css'>
-		
-	
-	<!-- RTL -->
-
-
-
-	
-
-
-	<!-- Calculated Styles -->
-	<style type="text/css">
-	
-	
-	
-	
-	/* Background Style */
-	html{
-		height:100%;
-			    	background: #ffffff;
-			}
-
-		#cspio-page{
-		background-color: rgba(0,0,0,0);
-	}
-	
-	.flexbox #cspio-page{
-			align-items: center;
-		justify-content: center;
-										}
-
-
-
-	.cspio body{
-		background: transparent;
-	}
-
-
-    /* Text Styles */
-    	    .cspio body, .cspio body p{
-	        font-family: 'Open Sans';
-			font-weight: 400;
-			font-style: ;
-	        font-size: 16px;
-	        line-height: 1.50em;
-	        	        color:#222222;
-	        	 	}
-
-		::-webkit-input-placeholder {
-			font-family:'Open Sans';
-			font-weight: 400;
-			font-style: ;
-		}
-		::-moz-placeholder {
-			font-family:'Open Sans';
-			font-weight: 400;
-			font-style: ;
-		} /* firefox 19+ */
-		:-ms-input-placeholder {
-			font-family:'Open Sans';
-			font-weight: 400;
-			font-style: ;
-		} /* ie */
-		:-moz-placeholder {
-			font-family:'Open Sans';
-			font-weight: 400;
-			font-style: ;
-		}
-
-    
-
-
-	    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-	    	        font-family: 'Open Sans';
-	    	        	        color:#222222;
-	        	    }
-		#cspio-headline{
-					font-family: 'Open Sans';
-			font-weight: 700;
-			font-style: ;
-					font-size: 42px;
-			color:#222222;
-			line-height: 1.00em;
-		}
-
-    		.cspio button{
-	        font-family: 'Open Sans';
-			font-weight: 400;
-			font-style: ;
-	    }
-    
-    /* Link Styles */
-    		.cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-			color: #222222;
-		}
-
-
-		#cspio-socialprofiles a {
-  color: #222222;
-}
-.cspio .btn-primary,
-.cspio .btn-primary:focus,
-.gform_button,
-#mc-embedded-subscribe,
-.mymail-wrapper .submit-button {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-  background-color: #222222;
-  background-image: -moz-linear-gradient(top,#222222,#000000);
-  background-image: -ms-linear-gradient(top,#222222,#000000);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#222222),to(#000000));
-  background-image: -webkit-linear-gradient(top,#222222,#000000);
-  background-image: -o-linear-gradient(top,#222222,#000000);
-  background-image: linear-gradient(top,#222222,#000000);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#000000', GradientType=0);
-  border-color: #000000 #000000 #000000;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-  *background-color: #000000;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
-.cspio .btn-primary:hover,
-.cspio .btn-primary:active,
-.cspio .btn-primary.active,
-.cspio .btn-primary.disabled,
-.cspio .btn-primary[disabled],
-.cspio .btn-primary:focus:hover,
-.cspio .btn-primary:focus:active,
-.cspio .btn-primary:focus.active,
-.cspio .btn-primary:focus.disabled,
-.cspio .btn-primary:focus[disabled],
-.gform_button:hover,
-.gform_button:active,
-.gform_button.active,
-.gform_button.disabled,
-.gform_button[disabled],
-#mc-embedded-subscribe:hover,
-#mc-embedded-subscribe:active,
-#mc-embedded-subscribe.active,
-#mc-embedded-subscribe.disabled,
-#mc-embedded-subscribe[disabled],
-.mymail-wrapper .submit-button:hover,
-.mymail-wrapper .submit-button:active,
-.mymail-wrapper .submit-button.active,
-.mymail-wrapper .submit-button.disabled,
-.mymail-wrapper .submit-button[disabled] {
-  background-color: #000000;
-  *background-color: #000000;
-}
-.cspio .btn-primary:active,
-.cspio .btn-primary.active,
-.cspio .btn-primary:focus:active,
-.cspio .btn-primary:focus.active,
-.gform_button:active,
-.gform_button.active,
-#mc-embedded-subscribe:active,
-#mc-embedded-subscribe.active,
-.mymail-wrapper .submit-button:active,
-.mymail-wrapper .submit-button.active {
-  background-color: #000000 \9;
-}
-.form-control,
-.progress {
-  background-color: #f5f5f5;
-}
-#cspio-progressbar span,
-.countdown_section {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-}
-.cspio .btn-primary:hover,
-.cspio .btn-primary:active {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-  border-color: #090909;
-}
-.cspio input[type='text']:focus {
-  webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.6);
-}
-    
-
-    #cspio-content {
-  max-width: 600px;
-  background-color: #000000;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-
-        #cspio-content{
-    	background-color:transparent;
-    }
-    
-    
-		.cspio .progress-bar,
-.countdown_section,
-.cspio .btn-primary,
-.cspio .btn-primary:focus,
-.gform_button {
-  background-image: none;
-  text-shadow: none;
-}
-.countdown_section,
-.cspio .progress-bar {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.cspio input,
-.cspio input:focus {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
-	
-		
-									
-
-	
-
-	
-	</style>
-	<!-- JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- FitVid -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
-	<!-- Scripts -->
-	<script src="https://static.comingsoonpage.com/cspio-assets/1.0.0/scripts.js"></script>
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<!-- Retina JS -->
-	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>-->
-	<!-- Tubular -->
-	
-
-<!-- Header Scripts -->
-	
-<!-- Google Analytics -->
+  <!-- Site made with Mobirise Website Builder v4.12.3, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
 </head>
 <body>
-	<div id="cspio-page">
-		<div id="cspio-content">
-						    			    			    				
-						    			    <h1 id="cspio-headline">Coming Soon</h1>			    				
-						    			    <div id="cspio-description">Get ready! </br>Something really cool is coming!</div>			    				
-						    			    			    				
-						    			    			    				
-						    			    			    				
-						    			    			    				
-						    			    			    				
-						    			     			    				
-			
-		</div><!-- end of #seed-cspio-content -->
-									<!-- This attribution is required to use this page under our free license. -->
-			
-			</div>
+  <section class="header4 cid-s11rgRZmQU mbr-parallax-background" id="header4-0">
 
-	<script>jQuery(document).ready(function($){$("#cspio-description,#cspio-thankyoumsg").fitVids();});</script>
+    
 
-	<!-- Animate -->
-	
-	
-		
-	<script>
-	function resize(){
-			$('head').append("<style id='form-style' type='text/css'></style>");
-			$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-	}
-	
-	$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-		var width = $('#cspio-field-wrapper').width();
-		//console.log(width);
-		if(width < 480 && width != 0){
-			resize();
-		}
-	}
-	);
-	</script>
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-1">
+                    INTRO WITH IMAGE
+                </h1>
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-5">
+                        Intro with background image, color overlay and a picture at the bottom. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.
+                    </p>
+                </div>
+                <div class="mbr-section-btn align-center">
+                    <a class="btn btn-md btn-primary display-4" href="https://mobirise.co">LEARN MORE</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.co">LIVE DEMO</a>
+                </div>
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/background2.jpg" alt="Mobirise" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
 
 
-
-
-	
-	</body>
+  <section class="engine"><a href="https://mobirise.info/k">develop your own website</a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+</body>
 </html>
-
-
