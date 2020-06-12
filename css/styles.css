@@ -70,6 +70,10 @@ Colors:
   content: "\e900";
 }
 
+selector:after {
+    font-family: 'icomoon';
+    content: '\e953';
+    }
 
 /******************************/
 /*     01. General Styles     */
